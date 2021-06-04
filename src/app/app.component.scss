@@ -1,0 +1,33 @@
+div.content{
+    div.data_table{
+        margin-top: 3vw;
+    }
+    div.nxt_records{
+        text-align: center;
+        font-size: large;
+    }
+    div.nxt-buttons{
+        margin-top: 1vw;
+        text-align: center;
+    }
+    div.footer{
+        background-color: #0275d8;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 3vw;
+        border-top: 1px solid #e7eff6;
+        display: flex;
+        align-items: center;
+        border-radius: 5%;
+        justify-content: space-between;
+        span{
+            margin-left: 2vw;
+            font-size: 1.2vw;
+        }
+        div.version{
+            margin-right: 2vw;
+        }
+    }
+}

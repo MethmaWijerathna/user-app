@@ -1,0 +1,29 @@
+<div class="user-values">
+    <div class="text-center">
+        <img [src]="userDetails.data.avatar" class="rounded">
+    </div>
+
+    <div class="value-table">
+        <div class="value-heading"><b>User Details</b></div>
+        <div class="table-container">
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <th scope="row"> First Name: </th>
+                        <td>{{userDetails.data.first_name}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> Last Name: </th>
+                        <td>{{userDetails.data.last_name}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> Email Address: </th>
+                        <td>{{userDetails.data.email}}</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
