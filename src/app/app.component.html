@@ -1,5 +1,5 @@
 <div class="content">
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-primary">
     <div class="container-fluid">
       <span class="fs-2" style="color: white;">User <b>Management</b></span>
         <form class="d-flex" *ngIf="view=='home'">
@@ -10,9 +10,83 @@
           <button class="btn btn-light" type="submit" (click)="goToHome()"><img src="../assets/arrow.png"> Go back</button>
         </form>
     </div>
+  </nav> -->
+
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <span class="fs-2" style="color: white; margin-left: 0.5em;"><b>ISN</b></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-left: 2.5em;">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#" style="color: white;">Chat</a>
+          <a class="nav-link" href="#" style="color: white;">Career Development</a>
+          <a class="nav-link" href="#" style="color: white;">Job Opportunities</a>
+          <a class="nav-link disabled" style="color: white;">Networking Events</a>
+          <a class="nav-link" href="#" style="color: white;">Language Change</a>
+        </div>
+      </div>
+    </div>
   </nav>
 
-  <div class="data_table" *ngIf="view=='home'">
+  <div class="container text-center" style="margin-top: 3em;">
+    <div class="row">
+      <div class="col">
+        
+        <div class="card">
+          <img src="../assets/index.png" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title">Virtual Chat Bot</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+  
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../assets/Detective-with-magnifying-glass-clipart-2.jpg" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title">Career Development</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../assets/networking-abstract-scribble-networking-people-connection-circle-hand-drawing-91179513.jpg" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title">Networking Events</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center" style="margin-top: 10em;">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+      <div class="col-md-8"><h1>International Student Support</h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat ac felis donec et odio pellentesque diam volutpat. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Sit amet consectetur adipiscing elit duis. Donec adipiscing tristique risus nec feugiat in. Aliquam nulla facilisi cras fermentum odio eu. Enim ut tellus elementum sagittis vitae et. Commodo ullamcorper a lacus vestibulum sed arcu. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Sodales ut eu sem integer vitae justo. Amet aliquam id diam maecenas ultricies. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Ornare arcu odio ut sem nulla pharetra diam. Gravida cum sociis natoque penatibus et. Diam sollicitudin tempor id eu nisl nunc. Elementum pulvinar etiam non quam. Tempor orci eu lobortis elementum nibh. Et sollicitudin ac orci phasellus egestas tellus rutrum. Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Ac turpis egestas sed tempus. Amet risus nullam eget felis eget nunc. Turpis cursus in hac habitasse. Sit amet mattis vulputate enim nulla. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Sit amet aliquam id diam maecenas. Dignissim convallis aenean et tortor at risus viverra. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Scelerisque eu ultrices vitae auctor eu augue ut. Pellentesque habitant morbi tristique senectus. Donec enim diam vulputate ut</div>
+      <div class="col-6 col-md-4"><img src="../assets/abook.jpg" style="width: 100%; height: 100%" class="img-thumbnail" alt="..."></div>
+    </div>
+
+    <div class="row" style="margin-top: 3em;">
+      <div class="col-6 col-md-4"><img src="../assets/index.png" style="width: 100%; height: 100%" class="img-thumbnail" alt="..."></div>
+      <div class="col-md-8"><h1>Visa Consultation</h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat ac felis donec et odio pellentesque diam volutpat. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Sit amet consectetur adipiscing elit duis. Donec adipiscing tristique risus nec feugiat in. Aliquam nulla facilisi cras fermentum odio eu. Enim ut tellus elementum sagittis vitae et. Commodo ullamcorper a lacus vestibulum sed arcu. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Sodales ut eu sem integer vitae justo. Amet aliquam id diam maecenas ultricies. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Ornare arcu odio ut sem nulla pharetra diam. Gravida cum sociis natoque penatibus et.
+
+        Diam sollicitudin tempor id eu nisl nunc. Elementum pulvinar etiam non quam. Tempor orci eu lobortis elementum nibh. Et sollicitudin ac orci phasellus egestas tellus rutrum. Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Ac turpis egestas sed tempus. Amet risus nullam eget felis eget nunc. Turpis cursus in hac habitasse. Sit amet mattis vulputate enim nulla. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Sit amet aliquam id diam maecenas. Dignissim convallis aenean et tortor at risus viverra. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Scelerisque eu ultrices vitae auctor eu augue ut. Pellentesque habitant morbi tristique senectus. Donec enim diam vulputate ut</div>
+    </div>  
+
+  </div>
+
+  <!-- <div class="data_table" *ngIf="view=='home'">
     <table class="table table-striped">
       <thead>
         <tr>
@@ -32,9 +106,9 @@
         </tr>
       </tbody>
     </table>
-  </div>
+  </div> -->
 
-  <!-- Open person profile -->
+  <!-- Open person profile
   <div *ngIf="view=='details'">
     <app-user-detail [userID]="idClicked"></app-user-detail>
   </div>
@@ -46,9 +120,9 @@
   <div class="nxt-buttons" *ngIf="view=='home'">
     <button class="btn btn-primary" (click)="goToPrevious()"><img src="../assets/left-arrow.png"></button>
     <button class="btn btn-primary" type="submit" style="margin-left: 1vw;" (click)="goToNext()"><img src="../assets/next.png"></button>
-  </div>
+  </div> -->
   <div class="footer">
-    <span>&copy; Methma Corporation</span>
+    <span>&copy; Microsoft Corporation</span>
     <div class="version">
       <span>v 1.0.0</span>
     </div>
